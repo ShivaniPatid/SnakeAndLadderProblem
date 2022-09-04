@@ -20,6 +20,9 @@
                 case 3:
                     UCThreeSnakeAndLadder.CheckForOption();
                     break;
+                case 4:
+                    UCFourSnakeAndLadder.WinningPosition();
+                    break;
                 default:
                     Console.WriteLine("Choose a right option");
                     break;

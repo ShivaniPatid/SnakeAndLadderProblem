@@ -17,6 +17,9 @@
                 case 2:
                     UCTwoSnakeAndLadder.RollsThedie();
                     break;
+                case 3:
+                    UCThreeSnakeAndLadder.CheckForOption();
+                    break;
                 default:
                     Console.WriteLine("Choose a right option");
                     break;

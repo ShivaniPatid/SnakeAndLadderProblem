@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Choose Option\n 1. Played with single player\n 2. The Player rolls the die to get a number\n 3. check no play, ladder or snake\n 4. winning when reached 100");
+            Console.WriteLine("Choose Option\n 1. Played with single player\n 2. The Player rolls the die to get a number\n 3. check no play, ladder or snake\n 4. winning when reached 100\n 5. Exact winning position 100");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -22,6 +22,9 @@
                     break;
                 case 4:
                     UCFourSnakeAndLadder.WinningPosition();
+                    break;
+                case 5:
+                    UCFiveSnakeAndLadder.ExactWinningPosition();
                     break;
                 default:
                     Console.WriteLine("Choose a right option");

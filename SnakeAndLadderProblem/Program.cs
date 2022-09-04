@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            Console.WriteLine("Choose Option\n 1. Played with single player\n 2. The Player rolls the die to get a number\n 3. check no play, ladder or snake\n 4. winning when reached 100");
+            int option = Convert.ToInt32(Console.ReadLine());
+
+            switch (option)
+            {
+
+                case 1:
+                    UCOneSnakeAndLadder.PlayerPsition();
+                    break;
+                default:
+                    Console.WriteLine("Choose a right option");
+                    break;
+            }
         }
     }
 }
